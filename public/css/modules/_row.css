@@ -1,0 +1,37 @@
+.row {
+
+	@mixin clearfix;
+
+
+	&__large-4 {
+	float: left;
+	width: 33.33%;
+	}
+
+	&__large-2 {
+		float: left;
+		width: 15%;
+	}
+
+	&__large-4--small {
+		float:left;
+		width: 30%;
+	}
+
+	&--gutters {
+		margin-right: -54px;
+	}
+
+
+	&--equal-height {
+
+			display: flex;
+
+
+		& > div {
+			float: none;
+			display: flex;
+		}
+	}
+
+}

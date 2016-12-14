@@ -1,0 +1,40 @@
+.primary-nav {
+
+
+	&--pull-right {
+		float: right;
+	}
+
+	ul {
+		margin:0;
+		padding:0;
+		@mixin clearfix;
+	}
+
+	li {
+		list-style:none;
+		float: left;
+		display:inline-block;
+		padding-right:7px;
+	}
+
+	li:last-child {
+		padding-right: 0;
+	}
+
+	a {
+		color: #FFF;
+		font-weight:300;
+		text-decoration: none;
+		display: block;
+		padding: 5px 8px;
+		font-size: 1.1rem;
+		background-color: rgba($mainBlue, .5);
+
+
+		&.is-current-link {
+			color:#fabb69;
+		}
+
+	}
+}

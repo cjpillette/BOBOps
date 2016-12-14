@@ -1,0 +1,4 @@
+.wrapper {
+  @mixin clearfix;
+  display: block;
+}

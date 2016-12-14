@@ -1,0 +1,7 @@
+.table {
+
+ &--dark-background {
+  background-color: lightgrey;
+  }
+
+}

@@ -1,0 +1,33 @@
+.page-section {
+
+	border-top: 5px solid $mainBlue;
+
+
+	&--top {
+		background-color: $mainOrange;
+	}
+
+	&__title {
+		font-size: 1.25rem;
+		font-height: 200;
+		padding-top: 0.3rem;
+		padding-bottom:10px;
+		font-style: italic;
+		color: $mainBlue;
+	}
+
+	&__title--smaller {
+		font-size: 0.8rem;
+	}
+
+	&--middle {
+
+	}
+
+	&--bottom {
+	  background: url('/images/testimonials-bg.jpg') top center no-repeat;
+	  background-size: cover;
+    }
+
+
+}

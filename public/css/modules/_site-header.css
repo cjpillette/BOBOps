@@ -1,0 +1,14 @@
+.site-header {
+	background-color: $mainBlue;
+	padding: 10px 0 15px 0;
+
+	width: 100%;
+
+	&__btn-container {
+		float: right;
+	}
+
+
+
+
+}
